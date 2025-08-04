@@ -1,0 +1,20 @@
+<resources>
+    <!-- Général -->
+    <string name="app_name">Gestion des Congés</string>
+    <string name="welcome_text">Se connecter à la gestion des congés </string>
+    <string name="accueil">Accueil</string>
+    <string name="ajout">Ajout agent</string>
+    <string name="Déconnexion">Déconnexion</string>
+    <string name="Demandes">Demandes de congés</string>
+    <string name="Prénom">Prénom</string>
+    <string name="poste">Poste</string>
+    <string name="date">date deb</string>
+    <string name="matricule">Matricule</string>
+    <string name="nom">Nom</string>
+
+
+    <!-- Boutons -->
+    <string name="signup">inscrire</string>
+    <string name="login">Se connecter</string>
+    <string name="back">Retour</string>
+</resources>

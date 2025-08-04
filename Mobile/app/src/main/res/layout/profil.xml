@@ -1,0 +1,194 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/table"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="8dp"
+android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <Button
+            android:id="@+id/buttonRetour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:textColor="#000000"
+            android:padding="8dp" />
+    </TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/table_row_border"
+    android:padding="4dp">
+
+    <TextView
+        android:text="Nom :"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/tvNom"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:textSize="14sp"/>
+</TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Prénom :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tvPrenom"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Matricule :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tvMatricule"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Email :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Poste :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tvPoste"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Tél :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tvTel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+    </TableRow>
+    <Button
+        android:id="@+id/btnModifierProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier le profil"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFF"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center" />
+</TableLayout>
+
+

@@ -1,0 +1,71 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:stretchColumns="*">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <Button
+            android:id="@+id/buttonRetour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:textColor="#000000"
+            android:padding="8dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Date début"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="Date fin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="Statut"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:text="Action"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+
+    </TableRow>
+
+</TableLayout>

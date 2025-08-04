@@ -1,0 +1,130 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <Button
+            android:id="@+id/buttonRetour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:textColor="#000000"
+            android:padding="8dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Nouveau Email :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:hint="Entrez votre email"
+           />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Nouveau Poste :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/Poste"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:hint="Entrez votre email"
+     />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_row_border"
+        android:padding="4dp">
+
+        <TextView
+            android:text="Nouveau Tel :"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/Tel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:hint="Entrez votre Tel"
+         />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnModifierProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer Modification"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFF"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center" />
+</TableLayout>
+
+
